@@ -6,12 +6,13 @@
     <title>カウントダウンタイマー</title>
     <link rel="stylesheet" href="stylesheet.css">
   </head>
-  <body>
-    <form name="timer">
-        <input type="text" value="">分
-        <input type="text" value="">秒<br>
-        <input type="button" value="スタート" onclick="cntStart()">
-        <input type="button" value="ストップ" onclick="cntStop()">
+  <body style="background-color: #66cdaa;">
+    <form name="timer" style="font-size: 100px;">
+        <input style="height: 150px; font-size: 150px; width: 300px;" type="text" value="">分  
+        <input style="height: 150px; font-size: 150px; width: 300px;" type="text" value="">秒<br>
+        <input style="font-size: 50px; margin-left: 20px;" type="button" value="スタート" onclick="cntStart()">
+        <input style="font-size: 50px; margin-left: 20px;" type="button" value="ストップ" onclick="cntStop()">
+        <input style="font-size: 50px; margin-left: 20px;" type="button" value="リセット" onclick="reSet()">
     </form>
 
     <script>
@@ -85,5 +86,7 @@
         }  
           
         </script>
+
+        <p style="font-size: 5px; margin-top: 100px">このカウントダウンタイマーは<a href="https://www.pazru.net/js/timer/6.html">こちらのサイト</a>を参考にして作られたものです</p>
 
   </body>
